@@ -1,6 +1,7 @@
 import { getTranslations } from 'next-intl/server';
 
 import { Sponsors } from '@/components/Sponsors';
+import Hero from '@/components/ui/Hero';
 
 export async function generateMetadata(props: { params: { locale: string } }) {
   const t = await getTranslations({
@@ -17,6 +18,7 @@ export async function generateMetadata(props: { params: { locale: string } }) {
 export default function Index() {
   return (
     <>
+      <Hero />
       <Sponsors />
       <h2 className="mt-5 text-2xl font-bold">co pilot sucks</h2>
     </>
