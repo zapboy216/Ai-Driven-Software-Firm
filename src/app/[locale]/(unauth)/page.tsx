@@ -18,9 +18,7 @@ export default function Index() {
   return (
     <>
       <Sponsors />
-      <h2 className="mt-5 text-2xl font-bold">
-        Boilerplate Code for Your Next.js Project with Tailwind CSS
-      </h2>
+      <h2 className="mt-5 text-2xl font-bold">co pilot sucks</h2>
     </>
   );
 }
