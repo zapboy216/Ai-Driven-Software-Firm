@@ -6,7 +6,7 @@ import * as Sentry from '@sentry/nextjs';
 
 Sentry.init({
   // FIXME: Add your Sentry DSN
-dsn: 'https://f68d7f2b4fe7cc220655bfc6ab080b89@o4506949001084928.ingest.us.sentry.io/4506965920972800',
+  dsn: 'https://f68d7f2b4fe7cc220655bfc6ab080b89@o4506949001084928.ingest.us.sentry.io/4506965920972800',
 
   // Enable Spotlight in development
   spotlight: process.env.NODE_ENV === 'development',
@@ -21,5 +21,5 @@ dsn: 'https://f68d7f2b4fe7cc220655bfc6ab080b89@o4506949001084928.ingest.us.sentr
   tracesSampleRate: 1,
 
   // Setting this option to true will print useful information to the console while you're setting up Sentry.
-  debug: false,
+  debug: true,
 });
