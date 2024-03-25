@@ -29,14 +29,16 @@ export default function Index() {
       <Hero />
       <Card>
         <CardHeader>
-          <CardTitle>Card Title</CardTitle>
-          <CardDescription>Card Description</CardDescription>
+          <CardTitle>I have a card title here</CardTitle>
+          <CardDescription>
+            <p>and a Card Description should really go here</p>
+          </CardDescription>
         </CardHeader>
         <CardContent>
-          <p>Card Content</p>
+          <p>Card Content can go here </p>
         </CardContent>
         <CardFooter>
-          <p>Card Footer</p>
+          <p>Card Footer can go here</p>
         </CardFooter>
       </Card>
 
