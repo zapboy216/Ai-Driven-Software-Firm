@@ -31,7 +31,7 @@ export default function Index() {
         <CardHeader>
           <CardTitle>I have a card title here</CardTitle>
           <CardDescription>
-            <p>and a Card Description should really go here</p>
+            and a Card Description should really go here
           </CardDescription>
         </CardHeader>
         <CardContent>
