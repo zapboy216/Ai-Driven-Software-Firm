@@ -19,7 +19,7 @@ export default function Index() {
   return (
     <>
       <Hero />
-
+      <h1>Hello World</h1>
       <Sponsors />
     </>
   );
