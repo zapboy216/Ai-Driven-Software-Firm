@@ -1,7 +1,7 @@
 import Image from 'next/image';
 
 const Sponsors = () => (
-  <table className="border-collapse">
+  <table className="w-full border-collapse">
     <tbody>
       <tr className="h-56">
         <td className="border-2 border-gray-300 p-3">
