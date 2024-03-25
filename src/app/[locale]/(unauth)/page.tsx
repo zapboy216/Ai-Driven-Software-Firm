@@ -19,8 +19,8 @@ export default function Index() {
   return (
     <>
       <Hero />
+
       <Sponsors />
-      <h2 className="mt-5 text-2xl font-bold">co pilot sucks</h2>
     </>
   );
 }
