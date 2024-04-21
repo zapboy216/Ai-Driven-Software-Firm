@@ -1,1 +1,1 @@
-## An Example Website for a Software Development Firm, Site Uses AI integration 
+##  Website for a Software Development Firm, Site will Use AI copilot and Next.js 
