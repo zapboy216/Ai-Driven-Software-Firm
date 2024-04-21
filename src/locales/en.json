@@ -5,7 +5,8 @@
     "guestbook_link": "Guestbook",
     "portfolio_link": "Portfolio",
     "sign_in_link": "Sign in",
-    "sign_up_link": "Sign up"
+    "sign_up_link": "Sign up",
+    "content": "Root layout text"
   },
   "BaseTemplate": {
     "description": "Todays Top Freelance Developers",
