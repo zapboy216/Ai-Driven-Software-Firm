@@ -1,0 +1,113 @@
+{
+  "RootLayout": {
+    "home_link": "Home",
+    "about_link": "About",
+    "guestbook_link": "Guestbook",
+    "portfolio_link": "Portfolio",
+    "sign_in_link": "Sign in",
+    "sign_up_link": "Sign up"
+  },
+  "BaseTemplate": {
+    "description": "Todays Top Freelance Developers",
+    "made_with": "Made with"
+  },
+  "Index": {
+    "meta_title": "Next.js Boilerplate Presentation",
+    "imageUrl": "https://storage.googleapis.com/dinan/images/art/work/med16.png",
+    "meta_description": "Next js Boilerplate is the perfect starter code for your project. Build your React application with the Next.js framework.",
+    "page_title_2": "some interesting content",
+    "page_description_2": "some more content",
+    "cards": {
+      "card_title_1": "Card Title 1",
+      "card_description_1": "Description for Card 1",
+      "card_content_1": "Content for Card 1",
+      "card_footer_1": "Footer for Card 1",
+      "card_title_2": "Card Title 2",
+      "card_description_2": "Description for Card 2",
+      "card_content_2": "Content for Card 2",
+      "card_footer_2": "Footer for Card 2",
+      "card_title_3": "Card Title 3",
+      "card_description_3": "Description for Card 3",
+      "card_content_3": "Content for Card 3",
+      "card_footer_3": "Footer for Card 3",
+      "card_title_4": "Card Title 4",
+      "card_description_4": "Description for Card 4",
+      "card_content_4": "Content for Card 4",
+      "card_footer_4": "Footer for Card 4",
+      "card_title_5": "Card Title 5",
+      "card_description_5": "Description for Card 5",
+      "card_content_5": "Content for Card 5",
+      "card_footer_5": "Footer for Card 5",
+      "card_title_6": "Card Title 6",
+      "card_description_6": "Description for Card 6",
+      "card_content_6": "Content for Card 6",
+      "card_footer_6": "Footer for Card 6",
+      "card_title_7": "Card Title 7",
+      "card_description_7": "Description for Card 7",
+      "card_content_7": "Content for Card 7",
+      "card_footer_7": "Footer for Card 7",
+      "card_title_8": "Card Title 8",
+      "card_description_8": "Description for Card 8",
+      "card_content_8": "Content for Card 8",
+      "card_footer_8": "Footer for Card 8"
+    }
+  },
+  "Guestbook": {
+    "meta_title": "Guestbook",
+    "meta_description": "An example of CRUD operation",
+    "database_powered_by": "Database powered by",
+    "loading_guestbook": "Loading guestbook..."
+  },
+  "GuestbookForm": {
+    "username": "Username",
+    "body": "Body",
+    "save": "Save"
+  },
+  "About": {
+    "meta_title": "About",
+    "meta_description": "About page description",
+    "about_paragraph": "Welcome to our About page! We are a team of passionate individuals dedicated to creating amazing software.",
+    "translation_powered_by": "Translation powered by"
+  },
+  "Panel": {
+    "meta_title": "Panel",
+    "meta_description": "Panel page description",
+    "about_paragraph": "Welcome to our Panel page! We are a team of stupid individuals dedicated to creating amazing software.",
+    "translation_powered_by": "Translation powered by"
+  },
+  "Portfolio": {
+    "meta_title": "Portfolio",
+    "meta_description": "Welcome to my portfolio page!",
+    "presentation": "Welcome to my portfolio page! Here you will find a carefully curated collection of my work and accomplishments. Through this portfolio, I'm to showcase my expertise, creativity, and the value I can bring to your projects.",
+    "portfolio_name": "Portfolio {name}",
+    "log_management_powered_by": "Log management powered by"
+  },
+  "PortfolioSlug": {
+    "meta_title": "Portfolio {slug}",
+    "meta_description": "Portfolio {slug} description",
+    "header": "Portfolio {slug}",
+    "content": "Created a set of promotional materials and branding elements for a corporate event. Crafted a visually unified theme, encompassing a logo, posters, banners, and digital assets. Integrated the client's brand identity while infusing it with a contemporary and innovative approach. Garnered favorable responses from event attendees, resulting in a successful event with heightened participant engagement and increased brand visibility.",
+    "error_reporting_powered_by": "Error reporting powered by",
+    "coverage_powered_by": "Code coverage powered by"
+  },
+  "SignIn": {
+    "meta_title": "Sign in",
+    "meta_description": "Seamlessly sign in to your account with our user-friendly login process."
+  },
+  "SignUp": {
+    "meta_title": "Sign up",
+    "meta_description": "Effortlessly create an account through our intuitive sign-up process."
+  },
+  "Dashboard": {
+    "meta_title": "Dashboard",
+    "hello_message": "Hello {email}!"
+  },
+  "UserProfile": {
+    "meta_title": "User Profile"
+  },
+  "DashboardLayout": {
+    "dashboard_link": "Dashboard",
+    "user_profile_link": "Manage your account",
+    "sign_out": "Sign out"
+  }
+}
