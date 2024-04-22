@@ -47,16 +47,14 @@ export default function RootLayout(props: {
   return (
     <html lang={props.params.locale}>
       <body>
-        <CopilotKit url="/path_to_copilotkit_endpoint/see_below">
-          <CopilotSidebar>
+       
             <NextIntlClientProvider
               locale={props.params.locale}
               messages={messages}
             >
               {props.children}
             </NextIntlClientProvider>
-          </CopilotSidebar>
-        </CopilotKit>
+         
       </body>
     </html>
   );
