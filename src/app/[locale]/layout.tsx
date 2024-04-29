@@ -1,8 +1,5 @@
 import '@/styles/global.css';
-import '@copilotkit/react-ui/styles.css';
 
-import { CopilotKit } from '@copilotkit/react-core';
-import { CopilotSidebar } from '@copilotkit/react-ui';
 import type { Metadata } from 'next';
 import { notFound } from 'next/navigation';
 import { NextIntlClientProvider, useMessages } from 'next-intl';
@@ -47,14 +44,12 @@ export default function RootLayout(props: {
   return (
     <html lang={props.params.locale}>
       <body>
-       
-            <NextIntlClientProvider
-              locale={props.params.locale}
-              messages={messages}
-            >
-              {props.children}
-            </NextIntlClientProvider>
-         
+        <NextIntlClientProvider
+          locale={props.params.locale}
+          messages={messages}
+        >
+          {props.children}
+        </NextIntlClientProvider>
       </body>
     </html>
   );
