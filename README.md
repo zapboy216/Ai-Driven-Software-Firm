@@ -1,1 +1,1 @@
-##  Website for a Software Development Firm, Site will Use AI copilot and Next.js 
+##  Website for a Software Development Firm
