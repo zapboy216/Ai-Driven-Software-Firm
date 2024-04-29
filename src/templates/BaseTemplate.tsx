@@ -1,7 +1,7 @@
 // BaseTemplate.tsx
 import { useTranslations } from 'next-intl';
 
-import { Navbar } from '@/components/component/navbar';
+import { NavBarFour } from '@/components/component/nav-bar-four';
 
 const BaseTemplate = (props: {
   leftNav: React.ReactNode;
@@ -12,7 +12,7 @@ const BaseTemplate = (props: {
 
   return (
     <>
-      <Navbar />
+      <NavBarFour />
 
       <main>{props.children}</main>
     </>
