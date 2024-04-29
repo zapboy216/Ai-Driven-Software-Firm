@@ -1,3 +1,4 @@
+// BaseTemplate.tsx
 import { useTranslations } from 'next-intl';
 
 import { AppConfig } from '@/utils/AppConfig';
@@ -14,7 +15,7 @@ const BaseTemplate = (props: {
       <div className="mx-auto max-w-screen-md lg:max-w-full">
         <header className="border-b border-gray-300 px-10">
           <div className="pt-8">
-            <h1 className="text-3xl font-bold text-red-900">
+            <h1 className="text-3xl font-bold text-gray-900">
               {AppConfig.name}
             </h1>
             <h2 className="text-xl">{t('description')}</h2>
