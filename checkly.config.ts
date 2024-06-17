@@ -9,7 +9,7 @@ const emailChannel = new EmailAlertChannel('email-channel-1', {
 });
 
 export const config = defineConfig({
-  projectName: 'Software Dinan',
+  projectName: 'Software',
   logicalId: 'nextjs-boilerplate',
   repoUrl: 'https://github.com/zapboy216/Example-Software-Firm',
   checks: {
